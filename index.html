@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Laboratorium Informatika Digital - Media Pembelajaran Interaktif Kelas IX Informatika: Penelusuran Flowchart Menghitung Luas Lingkaran, SMP Negeri 4 Sungai Pinyuh." />
+  <title>Laboratorium Informatika Digital — SMP Negeri 4 Sungai Pinyuh</title>
+  <link rel="stylesheet" href="src/styles/main.css" />
+  <link rel="stylesheet" href="src/styles/print.css" media="print" />
+</head>
+<body>
+  <div id="app" class="app-shell">
+    <noscript>
+      <div style="padding: 2rem; font-family: sans-serif; text-align: center;">
+        <h1>JavaScript Diperlukan</h1>
+        <p>Aktifkan JavaScript pada browser Anda untuk menjalankan Laboratorium Informatika Digital.</p>
+      </div>
+    </noscript>
+  </div>
+
+  <div id="modal-root" aria-live="polite"></div>
+  <div id="toast-root" class="toast-container" aria-live="polite"></div>
+
+  <!-- Konfigurasi & Data -->
+  <script src="src/config/assessmentConfig.js"></script>
+  <script src="src/data/materiData.js"></script>
+  <script src="src/data/lkpdData.js"></script>
+  <script src="src/data/kuisData.js"></script>
+  <script src="src/data/evaluasiData.js"></script>
+
+  <!-- Logika Inti -->
+  <script src="src/logic/storageService.js"></script>
+  <script src="src/logic/flowchartEngine.js"></script>
+  <script src="src/logic/gradingEngine.js"></script>
+  <script src="src/logic/csvExporter.js"></script>
+
+  <!-- Komponen UI -->
+  <script src="src/components/icons.js"></script>
+  <script src="src/components/modal.js"></script>
+  <script src="src/components/flowchartSvg.js"></script>
+  <script src="src/components/studentIdentityBar.js"></script>
+  <script src="src/components/sidebar.js"></script>
+
+  <!-- Halaman Aplikasi -->
+  <script src="src/pages/berandaPage.js"></script>
+  <script src="src/pages/materiPage.js"></script>
+  <script src="src/pages/simulasiPage.js"></script>
+  <script src="src/pages/lkpdPage.js"></script>
+  <script src="src/pages/kuisPage.js"></script>
+  <script src="src/pages/evaluasiPage.js"></script>
+  <script src="src/pages/sertifikatPage.js"></script>
+  <script src="src/pages/guruPage.js"></script>
+
+  <!-- Entry Point Aplikasi -->
+  <script src="src/app.js"></script>
+</body>
+</html>
